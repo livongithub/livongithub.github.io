@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>The caption element</h1>
+
+<table>
+  <caption>My timetable</caption>
+  <tr>
+    <th>day</th>
+    <th>class</th>
+  </tr>
+  <tr>
+    <td>monday</td>
+    <td>core typography</td>
+  </tr>
+  <tr>
+    <td>tuesday</td>
+    <td>core interaction</td>
+  </tr>
+  <tr>
+    <td>wednesday</td>
+    <td>core typography</td>
+  </tr>
+  <tr>
+    <td>thursday</td>
+    <td>digital tools for layout</td>
+  </tr>
+  <tr>
+    <td>friday</td>
+    <td>typography lecture</td>
+  </tr>
+</table>
+
+</body>
+</html>
