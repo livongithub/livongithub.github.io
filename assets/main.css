@@ -1,11 +1,52 @@
 body {
-  background-color: #a35b4b;
+  color: #e0fff1;
+  font-family: arial, sans-serif;
+  text-align: center;
 }
 
-h1 {
-  color: #3d0c01
- margin: 10px;
- font-family: monospace;
- font-size: 24px;
+h1{
+  font-size: 200px
+  letter-spacing: 6px;
+  color: lightblue;
+  background-color: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+}
 
+details {
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: .4px;
+  color: hotpink;
+  text-decoration: wavy underline;
+  text-decoration-thickness: 1px;
+}
+
+h3 {
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: .4px;
+  color: hotpink;
+}
+
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border-radius: 60%;
+  border: none;
+  background: hotpink;
+  color: #ffe0ff;
+  font-size: 6px;
+  font-weight: 50;
+  line-height: 1.2;
+  margin: auto;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: rotate(360deg) scale(7);
+}
+
+.btn {
+transition: transform 500ms;
+transition-timing-function: linear;
 }
