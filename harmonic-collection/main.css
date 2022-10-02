@@ -1,9 +1,24 @@
 body {
-  background-color: #a35b4b;
+  background-color: #ffce89;
+  text-align: center
 }
 
 h1 {
-  color: #3d0c01
- font-family: monospace;
- font-size: 24px;
+  color: #d57c00;
+ font-family: 'FatFace';
+ font-size: 300px;
+ letter-spacing: 15px;
+ text-align: left
+
+}
+
+a{
+  text-decoration: none;
+  color: #ac6400;
+  text-align: right;
+}
+
+a:hover{
+text-decoration: wavy underline;
+color: #ff9400
 }
