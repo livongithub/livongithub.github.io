@@ -9,16 +9,30 @@ h1 {
  font-size: 300px;
  letter-spacing: 15px;
  text-align: left
+ Rotate: 90deg
+ padding: 0;
+ margin: 0; 
 
 }
 
-a{
+.fancy-link{
   text-decoration: none;
   color: #ac6400;
-  text-align: right;
+  text-align: center;
+  position: relative;
 }
 
-a:hover{
-text-decoration: wavy underline;
-color: #ff9400
+.fancy-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  height: 2px;
+  color: #d57c00;
+
+  transform: scaleX(0.5);
+}
+.fancy-link::after:hover {
+  transform: scaleX(1);
 }
