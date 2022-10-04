@@ -1,0 +1,61 @@
+.pear1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #c6de57;
+  margin-top: 300px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+#egg {
+  display: block;
+  position: absolute;
+  width: 126px;
+  height: 180px;
+  background-color: #c6de57;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  margin-top: 270px;
+  margin-left: 330px;
+   -webkit-transform: rotate(40deg);
+}
+
+.stem {
+width: 2px;
+height: 25px;
+background-color: #744124;
+position: absolute;
+ -webkit-transform: rotate(40deg);
+ margin-top: 280px;
+ margin-left: 445px;
+}
+
+
+.vase{
+  height: 350px;
+  width: 170px;
+  background-color: lightgray;
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 445px;
+  z-index: -1;
+
+}
+
+
+    #triangle-topleft {
+      width: 0;
+      height: 0;
+      border-top: 350px solid white;
+      border-right: 45px solid transparent;
+    }
+
+
+        #triangle-topright {
+          width: 0;
+          height: 0;
+          border-top: 350px solid white;
+          border-left: 45px solid transparent;
+          margin-top: -350px;
+          margin-left: 125px;
+        }
