@@ -13,8 +13,13 @@ h1 {
  rotate: 90deg;
  padding: 10px;
  margin-left: 10px;
- margin-top: 0;
+ margin-top: 250px;
  padding-top: 0;
+ margin-bottom: 0;
+ padding-bottom: 50px;
+ position: absolute;
+ -webkit-transform: rotate(90deg);
+
 
 }
 
@@ -24,14 +29,11 @@ h1 {
   border-radius: 60%;
   border: none;
   background: #d57c00;
-  color: #ffce89;
-  font-size: 20px;
-  font-weight: 50;
   line-height: 1.2;
-  margin-left: 20px;
-  object-position: right;
-  text-align: center;
+  margin-left: 1120px;
+  margin-top: 50px;
   opacity: 80%;
+  position: relative;
 }
 
 .link1:hover {
@@ -54,11 +56,11 @@ transition-timing-function: linear;
   font-size: 20px;
   font-weight: 50;
   line-height: 1.2;
-  margin-left: 120px;
-  margin-top: 30px;
+  margin-left: 1200px;
+  margin-top: 120px;
   object-position: right;
-  text-align: center;
   opacity: 80%;
+  position: relative;
 }
 
 .link2:hover {
