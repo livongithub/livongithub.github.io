@@ -1,0 +1,15 @@
+h1{
+  color: blue;
+  object-position: center;
+  font-size: 36px;
+  letter-spcaing: 2px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+  margin-left: 25px;
+}
+
+img{
+  width: 683px;
+  height: 784.5px;
+}

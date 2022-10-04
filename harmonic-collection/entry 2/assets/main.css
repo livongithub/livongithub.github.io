@@ -16,10 +16,12 @@ h1 {
   color: green;
   font-size: 120px;
   font-family: 'Abril Fatface', serif;
+  opacity: 85%;
 }
 
 h1:hover {
   text-decoration: underline;
+  opacity: 100%;
 }
 
 p {
@@ -39,6 +41,7 @@ p {
 .parsley:hover{
   opacity: 0;
   -webkit-transition: all 15s ease-in-out;
+  cursor: pointer; 
 }
 
 img {
