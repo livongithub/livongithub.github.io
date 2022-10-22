@@ -90,13 +90,16 @@ img {
   width: 100%;
   float: none;
 }
+
 .part1 {
-max-width: none;
-width:90%;
-}
+  max-width: none;
+  width:90%;
+  }
+
 .part2{
         margin-top: -50px;
       }
+
 .recipe {
   margin-top: -30px;
 }
@@ -337,7 +340,7 @@ width:90%;
 
   .line1{
     width: 88%;
-    max-width: 397px;
+    max-width: 370px;
     height: 0px;
     border: 1px solid #000000;
     display: block;
@@ -359,7 +362,7 @@ width:90%;
 
   .line2{
     width: 88%;
-    max-width: 397px;
+    max-width: 370px;
     height: 0px;
     border: 1px solid #000000;
     display: block;
@@ -369,28 +372,26 @@ width:90%;
   }
 
   img {
-    max-width: 100%;
+    max-width: 450px;
+    width: 100%;
     transform: rotate(30deg);
-    padding: 0;
-    margin-left: 10px;
+    margin-left: 10%;
   }
 
   .list {
-    float: none;
+    position: relative;
     font-family: 'DM Serif Display', serif;
     font-weight: 16pt;
     font-size: 20px;
     line-height: 27px;
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10%;
+    margin-left: 0;
   }
 
   .ingredients {
-    float: none;
-    max-width: 500px;
-    width: 90%;
+    position: relative;
+    max-width: 430px;
     max-height: 516px;
     border: 3px solid #000000;
     border-radius: 18px;
@@ -416,7 +417,6 @@ width:90%;
     position: relative;
     margin-bottom: 115px;
     display: block;
-    margin-top: 1000px;
   }
 
   .summary {
@@ -424,8 +424,13 @@ width:90%;
     width: 90%;
   }
   .part1{
-    width: 250px;
+    width: 350px;
     text-align: justify;
+  }
+
+
+  .part2{
+    margin-top: 30px;
   }
 
   .recipe {
@@ -445,6 +450,69 @@ width:90%;
     margin-bottom: -25px;
   }
 
+  @media screen and (max-width: 953px){
+    img {
+      max-width: 42%;
+      transform: rotate(30deg);
+      margin-left: 8%;
+    }
+
+    .list {
+      float: right;
+      font-family: 'DM Serif Display', serif;
+      font-weight: 16pt;
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 40px;
+      margin-right: 8%;
+      margin-left: 0;
+    }
+
+    .ingredients {
+      float: right;
+      max-width: 300px;
+      max-height: 516px;
+      border: 3px solid #000000;
+      border-radius: 18px;
+      padding-right: 25px;
+      padding-left: 25px;
+      margin-right: 10%;
+    }
+
+  }
+
+  @media screen and (max-width: 863px){
+    img {
+      max-width: 42%;
+      transform: rotate(30deg);
+      margin-left: 5%;
+    }
+
+    .list {
+      float: right;
+      font-family: 'DM Serif Display', serif;
+      font-weight: 16pt;
+      font-size: 20px;
+      line-height: 27px;
+      margin-top: 40px;
+      margin-right: 5%;
+      margin-left: 0;
+    }
+
+    .ingredients {
+      float: right;
+      max-width: 300px;
+      max-height: 516px;
+      border: 3px solid #000000;
+      border-radius: 18px;
+      padding-right: 25px;
+      padding-left: 25px;
+      margin-right: 10%;
+    }
+
+  }
+
+
   }
 
 @media screen and (max-width: 320px) {
@@ -453,6 +521,7 @@ width:90%;
   background-color: black;
   color: #FFF3E1;
   }
+
   .line1{
     width: 277px;
     height: 0px;
