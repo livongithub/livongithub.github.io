@@ -1,31 +1,8 @@
-.body-box {
-  width: 100%;
-  height: 100%;
-  border: 2px solid red;
-  border-radius: 5%;
 
-}
-
-.day-list{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  color: red;
-  gap: 1rem;
-  justify-content: space-around;
-}
-
-.day-list > * {
-  flex-grow: 1;
-  flex-shrink: 1;
-  font-size: 16px;
-}
 
 .line1 {
   /*flex elements*/
   display: flex;
-  gap: 1rem;
   flex-wrap: nowrap;
   /*box sizing*/
   width: 100%;
@@ -35,10 +12,11 @@
   justify-content: flex-end;
 }
 
-.line2 {
+.days {
   /*flex elements*/
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   /*box sizing*/
   width: 100%;
   margin: 0;
@@ -52,18 +30,20 @@
   font-size: 16px;
   flex-shrink: 1;
   flex-grow: 0;
-  padding: 50px;
+  width: 150px;
+  height: 150px;
   text-align: center;
   align-items: right;
 
 }
 
-.line2 > * {
+.days > * {
   color: red;
   font-size: 16px;
   flex-shrink: 1;
   flex-grow: 1;
-  padding: 70px;
+  width: 150px;
+  height: 150px;
   text-align: center;
   border: 2px solid red;
 }
