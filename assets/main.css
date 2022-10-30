@@ -1,52 +1,127 @@
 body {
-  color: #e0fff1;
+  background-color: white;
   font-family: arial, sans-serif;
   text-align: center;
 }
 
-h1{
-  font-size: 200px
-  letter-spacing: 6px;
-  color: lightblue;
-  background-color: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
-}
-
-details {
-  font-size: 12px;
-  font-style: italic;
-  letter-spacing: .4px;
-  color: hotpink;
-  text-decoration: wavy underline;
-  text-decoration-thickness: 1px;
-}
-
-h3 {
-  font-size: 12px;
-  font-style: italic;
-  letter-spacing: .4px;
-  color: hotpink;
-}
-
-
-.btn {
-  width: 75px;
-  height: 75px;
-  border-radius: 60%;
-  border: none;
-  background: hotpink;
-  color: #ffe0ff;
-  font-size: 6px;
-  font-weight: 50;
-  line-height: 1.2;
-  margin: auto;
+h1 {
+  font-size: 400px;
+  text-align: right;
+  position: absolute;
+  transform: rotate(90deg);
+  padding-bottom: 1000px;
   text-align: center;
 }
 
-.btn:hover {
-  transform: rotate(360deg) scale(7);
+h3, summary {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+ }
+/* .title1 {
+  margin-top: 0px;
+}
+
+.title2 {
+  position: absolute;
+  transform: rotate(90deg);
+  margin-left: 1790px;
+  margintop: 2000px;
+} */
+
+.lines {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink:1;
+  max-width: 1100px;
+  margin-right: 25px;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.all-html {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.line1 {
+  height: 101px;
+  background: #02FF3A;
+}
+
+.line2 {
+  height: 101px;
+  background: red;
+}
+
+.line3 {
+  height: 101px;
+  background: yellow;
+}
+
+.line4 {
+  height: 101px;
+  background: blue;
+}
+
+.line5 {
+  height: 101px;
+  background: #02FF3A;
+}
+
+.line6 {
+  height: 101px;
+  background: red;
+}
+
+.line7 {
+  height: 101px;
+  background: #02FF3A;
+}
+
+.line8 {
+  height: 101px;
+  background: red;
+}
+
+.line9 {
+  height: 101px;
+  background: yellow;
+}
+
+.line10 {
+  height: 101px;
+  background: blue;
+}
+
+.line11 {
+  height: 101px;
+  background: #02FF3A;
+}
+
+
+.line12 {
+  height: 101px;
+  background: red;
 }
 
 .btn {
-transition: transform 500ms;
-transition-timing-function: linear;
+  margin-top: 45px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid #02FF3A;
+  color: #02FF3A;
+  text-size: 50px;
+}
+
+.btn:hover {
+  wedkit transform:
 }
