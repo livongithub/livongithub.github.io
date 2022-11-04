@@ -2,15 +2,14 @@ body {
   background-color: white;
   font-family: arial, sans-serif;
   text-align: center;
+  overflow-x: hidden;
 }
 
 h1 {
-  font-size: 400px;
-  text-align: right;
-  position: absolute;
+  font-size: 200px;
+  line-height: 150px;
   transform: rotate(90deg);
-  padding-bottom: 1000px;
-  text-align: center;
+  margin-bottom: none;
 }
 
 h3, summary {
@@ -42,6 +41,7 @@ a:link {
   margin-right: 25px;
   gap: 1rem;
   justify-content: center;
+  min-width: 400px;
 }
 
 .all-html {
@@ -111,17 +111,16 @@ a:link {
   background: red;
 }
 
-.btn {
-  margin-top: 45px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: white;
-  border: 3px solid #02FF3A;
-  color: #02FF3A;
-  text-size: 50px;
+.harmonic {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  width: 101px;
 }
 
-.btn:hover {
-  wedkit transform:
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 1rem;
 }

@@ -1,0 +1,18 @@
+.shape {
+  background-color: tomato;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  animation: change-place 3s  infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes change-place{
+  0% {
+    margin-left:0%;
+  }
+  100% {
+    margin-left:100%;
+  }
+}

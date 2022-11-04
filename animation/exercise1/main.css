@@ -1,0 +1,22 @@
+body{
+  animation: change-color 3s steps(5, start) infinite;
+  animation-direction: alternate;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: pink;
+  }
+  30% {
+    background-color: : yellow;
+  }
+  50% {
+    background-color: : green;
+  }
+  70%{
+    background-color: tomato;
+  }
+  100% {
+    background-color: #ff6400;
+  }
+}

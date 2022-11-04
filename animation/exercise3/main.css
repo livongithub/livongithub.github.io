@@ -1,0 +1,22 @@
+.shape {
+  background-color: tomato;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  animation: change-shape 3s steps(2,start) infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+@keyframes change-shape{
+  0% {
+    border-radius: 50%;
+  }
+  100% {
+    border-radius: 0%;
+  }
+}
