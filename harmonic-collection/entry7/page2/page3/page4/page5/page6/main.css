@@ -1,0 +1,46 @@
+body {
+  background-color: #FAF1DC;
+  font-family: 'Inter', sans-serif;
+  font-size: 20pt;
+  cursor: url("img/spoon.png"),auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.all-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.soup {
+  transform: scale(1.8);
+  margin-top: 10%;
+
+}
+
+.text{
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .soup {
+    transform: scale(1);
+  }
+
+  .text {
+    background-color: white;
+    color: black
+  }
+}

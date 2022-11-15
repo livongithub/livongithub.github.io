@@ -1,0 +1,50 @@
+body {
+  background-color: #FAF1DC;
+  font-family: 'Inter', sans-serif;
+  font-size: 20pt;
+}
+
+.objects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.food{
+  z-index: 0;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-left: -90px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  animation: change-place 2s steps(2,start);
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+}
+
+.pot {
+  transform: scale(2);
+}
+
+@keyframes change-place {
+  0%{
+    margin-top: 0px;
+  }
+  100%{
+    margin-top: 500px;;
+  }
+}
+
+.pot {
+  position: fixed;
+  margin-left: 50%;
+  margin-top: 50%;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  z-index: 1;
+}

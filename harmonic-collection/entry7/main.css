@@ -1,0 +1,42 @@
+body {
+  background-color: #FF6C6C
+}
+
+.all-items{
+  /* styling */
+  color: white;
+  font-size: 96px;
+  line-height: 116px;
+  font-family: 'Inter', sans-serif;
+  gap: 4rem;
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  align-items: center;
+  /* placement */
+  text-align: center;
+}
+.btn {
+  border: 15px solid white;
+  border-radius: 50%;
+  max-width: 400px;
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 500px){
+  .all-items {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 30%;
+  }
+
+  .btn {
+    border: 8px solid white;
+  }
+
+}

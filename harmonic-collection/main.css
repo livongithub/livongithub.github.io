@@ -23,6 +23,10 @@ h1 {
   margin-top: -100px;
 }
 
+.link7 {
+  transform: scale(.35);
+}
+
 .link1:hover{
   scale: 1.2;
 }
