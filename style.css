@@ -1,0 +1,70 @@
+/* Social Gothic Regular
+
+font-family: "social-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+Social Gothic Bold
+
+font-family: "social-gothic", sans-serif;
+font-weight: 700;
+font-style: normal;
+Social Gothic Rough
+
+font-family: "social-gothic-rough", sans-serif;
+font-weight: 700;
+font-style: normal;
+Social Gothic Soft
+
+font-family: "social-gothic-soft", sans-serif;
+font-weight: 700;
+font-style: normal;
+Social Gothic Stencil
+
+font-family: "social-gothic-stencil", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+h1 {
+    font-family: "social-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 170px;
+    line-height: 150px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#pageContent{
+    display: flex;
+    /* align-items: baseline; */
+    justify-content: space-between;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    font-family: "social-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+    justify-content: right;
+    margin: 20px;
+}
+
+#links >*{
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+#links>*:hover {
+    color: white;
+    background-color: black;
+}
